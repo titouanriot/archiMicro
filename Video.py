@@ -1,8 +1,8 @@
-    """
-    fichier de la class Video
-    Auteur : Titouan Riot
-    https://github.com/titouanriot/archiMicro/
-    """
+"""
+fichier de la class Video
+Auteur : Titouan Riot
+https://github.com/titouanriot/archiMicro/
+"""
 
 import json
 import re
@@ -12,7 +12,11 @@ from typing import List
 
 
 class Video:
-    def __init__(self, link):
+    soup : BeautifulSoup
+    description : str
+    link : str
+
+    def __init__(self, link : str):
         # link exists ? 
         if not(link.startswith("https://www.youtube.com/watch?v=")):
             raise Exception("URL invalid")

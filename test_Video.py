@@ -1,8 +1,8 @@
-    """
-    fichier de test des fichiers Video.py et scrapper.py
-    Auteur : Titouan Riot
-    https://github.com/titouanriot/archiMicro/
-    """
+"""
+fichier de test des fichiers Video.py et scrapper.py
+Auteur : Titouan Riot
+https://github.com/titouanriot/archiMicro/
+"""
 
 
 import pytest

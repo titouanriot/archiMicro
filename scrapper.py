@@ -1,9 +1,8 @@
-    """
-    fichier de test du fichier Video.py
-    Auteur : Titouan Riot
-    https://github.com/titouanriot/archiMicro/
-    
-    """
+"""
+fichier de test du fichier Video.py
+Auteur : Titouan Riot
+https://github.com/titouanriot/archiMicro/
+"""
 
 import sys
 import json
