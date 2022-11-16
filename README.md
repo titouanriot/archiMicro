@@ -7,4 +7,7 @@ il faut pip install les packages à l'intérieur de l'environnement virtuel
 
 le code source se trouve dans la branche master
 
-# il y a parfois une erreur KeyError: 'segmentedLikeDislikeButtonRenderer' lors du lancememnt de la commande python scrapper.py --input input.json --output output.json que je n'ai pas su resoudre. Cependant, à chaque fois que j'ai eu cette erreur j'ai juste relancé la meme commande et l'erreur n'apparaissait plus
+# il y a parfois une erreur KeyError: 'segmentedLikeDislikeButtonRenderer' 
+lors du lancememnt de la commande python scrapper.py --input input.json --output output.json que je n'ai pas su resoudre. 
+je soupconne que ce soit du à un changement du nombre de like 
+# Cependant, à chaque fois que j'ai eu cette erreur j'ai juste relancé la meme commande et l'erreur n'apparaissait plus
