@@ -1,11 +1,19 @@
-import pytest
+    """
+    fichier de test des fichiers Video.py et scrapper.py
+    Auteur : Titouan Riot
+    https://github.com/titouanriot/archiMicro/
+    """
 
+
+import pytest
 from Video import Video
+
 
 class TestVideo:
 
     def testUrlValid(self):
         v = Video("https://www.youtube.com/watch?v=4wTADlDJRQs")
+        # if description is None it means it did not raise the Exception "URL invalid" 
         assert(v.description is None) is True
 
     def testUrlInvalid(self):

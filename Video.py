@@ -1,3 +1,9 @@
+    """
+    fichier de la class Video
+    Auteur : Titouan Riot
+    https://github.com/titouanriot/archiMicro/
+    """
+
 import json
 import re
 import requests

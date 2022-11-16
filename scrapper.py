@@ -1,3 +1,10 @@
+    """
+    fichier de test du fichier Video.py
+    Auteur : Titouan Riot
+    https://github.com/titouanriot/archiMicro/
+    
+    """
+
 import sys
 import json
 
@@ -9,11 +16,9 @@ NB_COMMENTS = 5
 if(len(sys.argv) != 5):
     raise Exception("make sure to run python3.10 scrapper.py --input 'input.json' output.json")
 
-# Parse input JSON
 with open('input.json', 'r') as f:
     videosId = json.load(f)['videos_id']
 
-# Parse each video
 res = []
 for video in videosId:
     data = Video("https://www.youtube.com/watch?v=" + video).getData()
